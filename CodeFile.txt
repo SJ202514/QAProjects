@@ -1,0 +1,45 @@
+String str1="test";
+String srr2="test";
+ 
+str1==str2
+ 
+str1.equals(str2)
+
+====
+
+
+JavaScriptExecuter js=driver;
+driver.executeScript("document.getElementByID["a"].value="abc");
+ 
+File src= new file(path of file);
+TakeScreenshot ts = driver;
+ts.getScreeShotas(driver,OUTPUTType.file);
+File.copyUtil(src, new File(path);
+
+
+==== 
+
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int[] arr={1,3,0,4,0,2,7};
+        int total=arr.length-1;
+        int temp;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==0){
+                
+                temp=arr[i];
+                arr[i]=arr[total];
+                arr[total]=temp;
+                
+            }
+        }
+        
+        for(int a:arr){
+           System.out.println(a);    
+        }
+       
+        
+    }
+}
